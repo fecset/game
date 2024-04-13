@@ -1,0 +1,102 @@
+body{
+    background-image: url(https://img.freepik.com/free-photo/light-watercolor-texture-background-wallpaper_53876-104730.jpg?t=st=1712954432~exp=1712958032~hmac=067f3071e0d76fd232d8a993a1ff1c711075c8a76ebd3f8c4062f19e945cd0ce&w=1380);
+}
+.container{
+    position: absolute;
+    left: 25%;
+    gap: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 936px; 
+    background-color: rgb(28, 41, 59);
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.buttons{
+    background-color: rgb(126, 126, 187);
+    border: none;
+    color: white;
+    width: 43px;
+    height: 43px;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.buttons:hover{
+    background-color: rgb(94, 94, 138);
+}
+
+.counter{
+    position: absolute;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(175, 15, 15);
+    left: 220px;
+    top: 420px;
+}
+
+.prizes{
+    position: absolute;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #4CAF50;
+    left: 220px;
+    top: 390px;
+}
+
+.restart-btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(28, 41, 59);
+    color: white;
+    font-size: 22px;
+    border: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    padding-bottom: 4px;
+}
+
+.restart-btn:hover{
+    background-color: rgb(46, 66, 94);;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    color: rgb(28, 41, 59);;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
